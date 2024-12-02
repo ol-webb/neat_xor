@@ -1,0 +1,74 @@
+Collecting moviepy==1.0.3
+  Downloading moviepy-1.0.3.tar.gz (388 kB)
+     ---------------------------------------- 0.0/388.3 kB ? eta -:--:--     - -------------------------------------- 10.2/388.3 kB ? eta -:--:--     ----------------- -------------------- 174.1/388.3 kB 1.7 MB/s eta 0:00:01     -------------------------------------- 388.3/388.3 kB 3.0 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: numpy in c:\users\olive\appdata\local\programs\python\python311\lib\site-packages (1.25.2)
+Requirement already satisfied: imageio in c:\users\olive\appdata\local\programs\python\python311\lib\site-packages (2.34.2)
+Requirement already satisfied: decorator in c:\users\olive\appdata\roaming\python\python311\site-packages (5.1.1)
+Requirement already satisfied: tqdm in c:\users\olive\appdata\local\programs\python\python311\lib\site-packages (4.66.1)
+Requirement already satisfied: Pillow in c:\users\olive\appdata\local\programs\python\python311\lib\site-packages (10.0.0)
+Requirement already satisfied: scipy in c:\users\olive\appdata\local\programs\python\python311\lib\site-packages (1.14.0)
+Collecting pydub
+  Obtaining dependency information for pydub from https://files.pythonhosted.org/packages/a6/53/d78dc063216e62fc55f6b2eebb447f6a4b0a59f55c8406376f76bf959b08/pydub-0.25.1-py2.py3-none-any.whl.metadata
+  Downloading pydub-0.25.1-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting audiofile
+  Obtaining dependency information for audiofile from https://files.pythonhosted.org/packages/89/76/9cc485c575e771daeb84586b294424aa6b102297a7727071dc753dae0daa/audiofile-1.5.0-py3-none-any.whl.metadata
+  Downloading audiofile-1.5.0-py3-none-any.whl.metadata (4.9 kB)
+Requirement already satisfied: opencv-python in c:\users\olive\appdata\local\programs\python\python311\lib\site-packages (4.10.0.84)
+Collecting decorator
+  Obtaining dependency information for decorator from https://files.pythonhosted.org/packages/ed/1b/72a1821152d07cf1d8b6fce298aeb06a7eb90f4d6d41acec9861e7cc6df0/decorator-4.4.2-py2.py3-none-any.whl.metadata
+  Downloading decorator-4.4.2-py2.py3-none-any.whl.metadata (4.2 kB)
+Requirement already satisfied: requests<3.0,>=2.8.1 in c:\users\olive\appdata\local\programs\python\python311\lib\site-packages (from moviepy==1.0.3) (2.31.0)
+Requirement already satisfied: proglog<=1.0.0 in c:\users\olive\appdata\local\programs\python\python311\lib\site-packages (from moviepy==1.0.3) (0.1.10)
+Requirement already satisfied: imageio_ffmpeg>=0.2.0 in c:\users\olive\appdata\local\programs\python\python311\lib\site-packages (from moviepy==1.0.3) (0.5.1)
+Requirement already satisfied: colorama in c:\users\olive\appdata\roaming\python\python311\site-packages (from tqdm) (0.4.6)
+Collecting audeer (from audiofile)
+  Obtaining dependency information for audeer from https://files.pythonhosted.org/packages/d3/16/137d34017ef2b6b2907ef4da31fca8bdcc20ae1b262455fb07f77ee8efcc/audeer-2.2.0-py3-none-any.whl.metadata
+  Downloading audeer-2.2.0-py3-none-any.whl.metadata (4.1 kB)
+Collecting audmath>=1.3.0 (from audiofile)
+  Obtaining dependency information for audmath>=1.3.0 from https://files.pythonhosted.org/packages/a0/0d/d074c95e9cd5bd9a39d2851c4d96acd09a747de00f3af502c05f9a04580d/audmath-1.4.1-py3-none-any.whl.metadata
+  Downloading audmath-1.4.1-py3-none-any.whl.metadata (3.6 kB)
+Collecting soundfile>=0.12.1 (from audiofile)
+  Obtaining dependency information for soundfile>=0.12.1 from https://files.pythonhosted.org/packages/50/ff/26a4ee48d0b66625a4e4028a055b9f25bc9d7c7b2d17d21a45137621a50d/soundfile-0.12.1-py2.py3-none-win_amd64.whl.metadata
+  Downloading soundfile-0.12.1-py2.py3-none-win_amd64.whl.metadata (14 kB)
+Requirement already satisfied: setuptools in c:\users\olive\appdata\local\programs\python\python311\lib\site-packages (from imageio_ffmpeg>=0.2.0->moviepy==1.0.3) (65.5.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\olive\appdata\local\programs\python\python311\lib\site-packages (from requests<3.0,>=2.8.1->moviepy==1.0.3) (3.2.0)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\olive\appdata\local\programs\python\python311\lib\site-packages (from requests<3.0,>=2.8.1->moviepy==1.0.3) (3.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\olive\appdata\local\programs\python\python311\lib\site-packages (from requests<3.0,>=2.8.1->moviepy==1.0.3) (2.0.4)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\olive\appdata\local\programs\python\python311\lib\site-packages (from requests<3.0,>=2.8.1->moviepy==1.0.3) (2023.7.22)
+Collecting cffi>=1.0 (from soundfile>=0.12.1->audiofile)
+  Obtaining dependency information for cffi>=1.0 from https://files.pythonhosted.org/packages/3d/97/50228be003bb2802627d28ec0627837ac0bf35c90cf769812056f235b2d1/cffi-1.17.1-cp311-cp311-win_amd64.whl.metadata
+  Downloading cffi-1.17.1-cp311-cp311-win_amd64.whl.metadata (1.6 kB)
+Collecting pycparser (from cffi>=1.0->soundfile>=0.12.1->audiofile)
+  Obtaining dependency information for pycparser from https://files.pythonhosted.org/packages/13/a3/a812df4e2dd5696d1f351d58b8fe16a405b234ad2886a0dab9183fb78109/pycparser-2.22-py3-none-any.whl.metadata
+  Downloading pycparser-2.22-py3-none-any.whl.metadata (943 bytes)
+Downloading decorator-4.4.2-py2.py3-none-any.whl (9.2 kB)
+Downloading pydub-0.25.1-py2.py3-none-any.whl (32 kB)
+Downloading audiofile-1.5.0-py3-none-any.whl (1.1 MB)
+   ---------------------------------------- 0.0/1.1 MB ? eta -:--:--   ----------- ---------------------------- 0.3/1.1 MB 7.0 MB/s eta 0:00:01   ------------------------- -------------- 0.7/1.1 MB 7.5 MB/s eta 0:00:01   ---------------------------------- ----- 1.0/1.1 MB 7.7 MB/s eta 0:00:01   ---------------------------------------- 1.1/1.1 MB 7.2 MB/s eta 0:00:00
+Downloading audmath-1.4.1-py3-none-any.whl (23 kB)
+Downloading soundfile-0.12.1-py2.py3-none-win_amd64.whl (1.0 MB)
+   ---------------------------------------- 0.0/1.0 MB ? eta -:--:--   ----------- ---------------------------- 0.3/1.0 MB 5.9 MB/s eta 0:00:01   ----------------------- ---------------- 0.6/1.0 MB 6.3 MB/s eta 0:00:01   -------------------------------------- - 1.0/1.0 MB 6.8 MB/s eta 0:00:01   ---------------------------------------- 1.0/1.0 MB 6.4 MB/s eta 0:00:00
+Downloading audeer-2.2.0-py3-none-any.whl (41 kB)
+   ---------------------------------------- 0.0/41.2 kB ? eta -:--:--   ---------------------------------------- 41.2/41.2 kB ? eta 0:00:00
+Downloading cffi-1.17.1-cp311-cp311-win_amd64.whl (181 kB)
+   ---------------------------------------- 0.0/181.4 kB ? eta -:--:--   ---------------------------------------- 181.4/181.4 kB 5.3 MB/s eta 0:00:00
+Downloading pycparser-2.22-py3-none-any.whl (117 kB)
+   ---------------------------------------- 0.0/117.6 kB ? eta -:--:--   ---------------------------------------- 117.6/117.6 kB 7.2 MB/s eta 0:00:00
+Building wheels for collected packages: moviepy
+  Building wheel for moviepy (setup.py): started
+  Building wheel for moviepy (setup.py): finished with status 'done'
+  Created wheel for moviepy: filename=moviepy-1.0.3-py3-none-any.whl size=110765 sha256=7eeacc135d9dd727e2bbee3ee7f98531ad32ae5e9684da73fdaf49972bb44485
+  Stored in directory: c:\users\olive\appdata\local\pip\cache\wheels\83\b1\d9\119ef7c144b44d591ec0a9a140465133c23ea95d2a161184ba
+Successfully built moviepy
+Installing collected packages: pydub, pycparser, decorator, audmath, cffi, audeer, soundfile, moviepy, audiofile
+  Attempting uninstall: decorator
+    Found existing installation: decorator 5.1.1
+    Uninstalling decorator-5.1.1:
+      Successfully uninstalled decorator-5.1.1
+  Attempting uninstall: moviepy
+    Found existing installation: moviepy 2.1.1
+    Uninstalling moviepy-2.1.1:
+      Successfully uninstalled moviepy-2.1.1
+Successfully installed audeer-2.2.0 audiofile-1.5.0 audmath-1.4.1 cffi-1.17.1 decorator-4.4.2 moviepy-1.0.3 pycparser-2.22 pydub-0.25.1 soundfile-0.12.1
