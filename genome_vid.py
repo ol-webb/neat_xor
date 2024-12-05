@@ -15,9 +15,13 @@ def preprocess_images(image_folder, target_size):
     for file in os.listdir(image_folder):
         if file.endswith(".png"):
             filepath = os.path.join(image_folder, file)
-            with Image.open(filepath) as img:
-                resized_img = img.resize(target_size, Image.Resampling.LANCZOS)
-                resized_img.save(os.path.join(resized_folder, file))
+            try:
+                with Image.open(filepath) as img:
+                    resized_img = img.resize(target_size, Image.Resampling.LANCZOS)
+                    resized_img.save(os.path.join(resized_folder, file))
+                    print(f"Resized {file} to {resized_img.size}")  # Log image size
+            except Exception as e:
+                print(f"Error processing {file}: {e}")
 
     return resized_folder
 
